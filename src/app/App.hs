@@ -1,1 +1,4 @@
-main = putStrLn "Hello Project"
+main :: IO ()
+main = do
+  expression <- getLine
+  maybeTokens <- return (lexicallyAnalyse expression)

@@ -3,6 +3,7 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=haskell
 
 ### Haskell ###
+.vscode/
 dist
 dist-*
 cabal-dev

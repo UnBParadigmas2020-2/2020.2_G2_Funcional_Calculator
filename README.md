@@ -1,51 +1,38 @@
-# RepositorioTemplate
-Esse repositório é para ser utilizado pelos grupos como um template inicial, da home page do Projeto.
 
-**!! *Atenção: Renomeie o seu repositório para (Ano.Semestre)_(Grupo)_(Paradigma)_(NomeDoProjeto)*. !!** 
-
-Paradigmas:
- - Funcional
- - Logico
- - SMA
-
-**!! *Não coloque os nomes dos alunos no título do repositório*. !!**
-
-**!! *Exemplo de título correto: 2020.1_G1_Logico_ProjetoRoteirosAereos*. !!**
- 
- (Apague essa seção)
-
-# NomeDoProjeto
+# Calculadora Funcional
 
 **Disciplina**: FGA0210 - PARADIGMAS DE PROGRAMAÇÃO - T01 <br>
-**Nro do Grupo**: XX<br>
-**Paradigma**: XXXXXXXXXX<br>
+**Nro do Grupo**: 2<br>
+**Paradigma**: Funcional<br>
 
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| 15/01499948  |  Thiago Ferreira |
+| 17/0062686  |  Pedro Rodrigues Pereira |
+| 17/0008371  |  Daniel de Sousa Oliveira Melo Veras |
 
 ## Sobre 
-Descreva o seu projeto em linhas gerais. 
+O projeto desenvolvido pela equipe consiste em uma calculadora básica escrita na linguagem Cabal, contendo as funções de adição, subtração, multiplicação, divisão e exponencial.
 
 ## Screenshots
-Adicione 2 ou mais screenshots do projeto em termos de interface e/ou funcionamento.
+![print1](./media/print1.png)
+![print2](./media/print2.png)
+
 
 ## Instalação 
-**Linguagens**: xxxxxx<br>
-**Tecnologias**: xxxxxx<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
-Insira um manual ou um script para auxiliar ainda mais.
+**Linguagens**: Haskell<br>
+**Tecnologias**: Haskell, Cabal<br>
+Para executar o projeto, é necessário ter o haskell, haskell-stack, ghci e cabal.
+
+Ao ter todos os pre-requisitos cumpridos,basta executar os seguinte comandos:
+* stack build
+* cabal run
+
+Com isso, o projeto estará rodando e pronto para ser utilizado na linha de comando.
 
 ## Uso 
 Explique como usar seu projeto, caso haja algum passo a passo após o comando de execução.
 
 ## Vídeo
-Adicione 1 ou mais vídeos com a execução do projeto.
-
-## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas a seguir.
-
-## Fontes
-Caso utilize materiais de terceiros, referencie-os adequadamente.
+https://youtu.be/PAqbKi1IBoI
